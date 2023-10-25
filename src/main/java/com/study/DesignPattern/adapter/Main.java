@@ -9,5 +9,9 @@ public class Main {
         Print p = new PrintBanner("Hello");
         p.printWeak();
         p.printStrong();
+
+//        PrintBanner p = new PrintBanner("Hello");
+//        Print 인터페이스의 메소드만 사용하겠다라는 프로그래머의 의도를 명확하게 하기 위해
+//        PrintBanner 클래스가 아닌 Print 인터페이스를 사용한다
     }
 }
